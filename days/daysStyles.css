@@ -1,0 +1,48 @@
+h1 {
+  align-items: center;
+  color: brown;
+}
+
+body {
+  background-color: antiquewhite;
+  /* margin: auto; */
+  /* padding: 0; */
+  height: 100vh;
+}
+
+.daysContainer {
+  margin: auto;
+  /* text-align: center; */
+  margin-top: 100px;
+
+  width: 800px;
+}
+
+h1 {
+  text-align: center; /* Center the heading */
+  color: brown;
+  font-size: 40px; /* Adjust font size */
+  margin-top: 20px;
+
+  font-size: 50px;
+}
+
+.responsible {
+  font-size: 30px;
+  /* margin-right: auto; */
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 16px; /* Adjust font size for mobile screens */
+    margin-top: 50px; /* Adjust margin top for mobile screens */
+  }
+
+  .daysContainer {
+    margin-top: 10px; /* Adjust margin top for mobile screens */
+  }
+
+  .responsible {
+    font-size: 20px; /* Adjust font size for mobile screens */
+  }
+}
